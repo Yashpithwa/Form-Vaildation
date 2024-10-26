@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+    background-size: cover;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.main
+{
+    height: 100vh;
+    background-image: url(closeup-delicate-wispy-texture-cotton-candy-pink-clouds-painted-across-velvet-evening-sky-316678652-transformed.webp);
+   background-size: cover;
+   background-repeat: repeat;
+}
+body
+{
+    background-image: url(closeup-delicate-wispy-texture-cotton-candy-pink-clouds-painted-across-velvet-evening-sky-316678652.webp);
+   background-size: cover;
+   background-repeat: repeat;
+}
+.nav
+{
+    height: 70px;
+    background-color: #ffe6ff;
+   
+    width: 100%;
+    border: 1px solid black;
+    border: none;
+    text-align: center;
+}
+.formbox
+{
+    background-image: url(closeup-delicate-wispy-texture-cotton-candy-pink-clouds-painted-across-velvet-evening-sky-316678652-transformed.webp);
+    background-size: cover;
+    height: 500px;
+    max-width: 800px;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 70px;
+    background-color:#b3ffff;
+    flex-wrap: wrap;
+    background-color:linear-gradient(to bottom rigth,#008cff,#e100ff);
+    box-shadow: 5px 5px 50px 5px ;
+}
+
+.form1
+{
+    
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: none;
+}
+.mainform
+{
+    
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    
+}
+@media (max-width:500px)
+{
+   .formbox{
+    max-width: 350px;
+   }
+}
+#submit
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #ffe6ff;
+    
+    
+}
+
+#submit:hover
+{
+    background-color: #ffccff;
+}
